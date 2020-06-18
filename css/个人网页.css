@@ -1,0 +1,249 @@
+body{
+    width:960px;         /*页面大小*/
+	left:260px;
+	position:absolute;   /*布局的关键，绝对定位*/
+	}
+/*标题*/
+h1{
+    text-align:center; /*居中*/ 
+	margin:0px;
+	background:pink}
+nav{  
+    line-height:40px;  
+	width:960px;
+	background:#FF69B4;}
+nav ul{list-style-type:none;    /*去掉列表的特殊格式*/
+	margin:0px;
+    padding:0px;}
+nav ul li{display:inline-block; /*将li元素改为inline-block，可以让li元素在一行中表示*/
+	line-height:40px;           
+    margin:0 42px;}
+nav ul li a{
+    text-align:center;
+	font-size:18px;
+	font-family:FangSong;
+	text-decoration:none;
+	display:inline-block;
+	line-height:40px;         /*数据上下居中的关键，只是用line-height而不使用height数据自动上下居中*/
+	width:85px;}
+nav ul li a:hover{background:yellow;}
+.box11{
+	width:960px;
+    height:600px;
+	background:pink;
+	}
+.box12{
+	width:860px;
+    height:540px;
+	top:120px;
+	left:50px;
+	position:absolute;      /*布局的关键，以body为参照物的绝对定位*/
+	background:#C1CDC1;}
+.table1{
+	left:370px;
+	top:30px;
+    position:absolute;}     /*布局的关键，以body为参照物的绝对定位*/ 
+.td{border: 1px solid black; }
+.para11{
+	color:#363636;
+	text-indent:2em;
+	line-height:2em;
+	width:400px;
+	left:410px;
+	top:70px;
+	position:absolute;     /*布局的关键，以box12为参照物的绝对定位*/
+	font-family:FangSong;
+	font-size:25px;}
+.img11{
+    margin:0px;
+	width:330px;
+	height:450px;
+	left:50px;
+	top:45px;
+	position:absolute;     /*布局的关键，以box12为参照物的绝对定位*/
+	display:inline-block;}
+.box21{
+    width:960px;
+	height:600px;
+	background:pink}
+.box22{
+    width:760px;
+	height:500px;
+	background:#CDC9A5;
+	left:100px;
+	top:120px;
+	position:absolute;}   /*布局的关键，以body为参照物的绝对定位*/
+.para21{
+	text-indent:2em;
+	font-family:FangSong;
+    font-size:18px;
+	width:360px;
+	height:200px;
+	left:200px;
+	top:0px;
+	position:absolute;}   /*布局的关键，以box22为参照物的绝对定位*/
+.img21{
+	width:200px;
+    height:200px;}
+.img22{
+    width:200px;
+	height:200px;
+	left:560px;
+	position:absolute;}   /*布局的关键，以box22为参照物的绝对定位*/
+.img23{
+	width:250px;
+	height:300px;
+	top:200px;
+	left:0px;
+    position:absolute;}   /*布局的关键，以box22为参照物的绝对定位*/
+.img24{
+	width:250px;
+	height:300px;
+	top:200px;
+	left:255px;
+    position:absolute;}   /*布局的关键，以box22为参照物的绝对定位*/
+.img25{
+	width:250px;
+	height:300px;
+	top:200px;
+	left:510px;
+    position:absolute;}   /*布局的关键，以box22为参照物的绝对定位*/
+.para31{
+    width:800px;
+	height:90px;
+	font-family:FangSong;
+	text-indent:2em;
+	left:80px;
+    top:90px;
+	position:absolute;}   /*布局的关键，以body为参照物的绝对定位*/
+.box31{
+    width:840px;
+	height:460px;
+	background:white;
+	left:60px;
+	top:200px;
+	position:absolute;   /*布局的关键，以body为参照物的绝对定位*/
+	}
+.img31{
+    width:270px;
+	height:220px;
+	top:10px;
+	left:15px;
+	position:absolute;}  /*布局的关键，以box32为参照物的绝对定位*/
+.para32{
+	width:500px;
+	height:220px;
+	top:10px;
+	left:300px;
+	position:absolute;}  /*布局的关键，以box32为参照物的绝对定位*/
+.img32{
+	width:270px;
+	height:220px;
+	top:230px;
+	left:15px;
+	position:absolute;}  /*布局的关键，以box32为参照物的绝对定位*/
+.img33{
+	width:270px;
+	height:220px;
+	top:230px;
+	left:285px;
+	position:absolute;}  /*布局的关键，以box32为参照物的绝对定位*/
+.img34{
+	width:270px;
+	height:220px;
+	top:230px;
+	left:555px;
+	position:absolute;}  /*布局的关键，以box32为参照物的绝对定位*/
+.box41{
+    width:840px;
+	height:470px;
+	background:white;
+	left:60px;
+	top:200px;
+	position:absolute;}  /*布局的关键，以body为参照物的绝对定位*/
+.img41{
+    border:2px dashed pink;
+	width:230px;
+	height:220px;
+	top:5px;
+	left:10px;
+	position:absolute;}  /*布局的关键，以box41为参照物的绝对定位*/
+.para41{
+    text-indent:2em;
+	font-family:FangSong;
+	font-size:15px;
+	width:360px;
+	height:250px;
+	top:5px;
+	left:245px;
+	position:absolute;}  /*布局的关键，以box41为参照物的绝对定位*/
+.img42{
+    border:2px dashed pink;
+    width:230px;
+	height:220px;
+	top:5px;
+	left:608px;
+	position:absolute;}  /*布局的关键，以box41为参照物的绝对定位*/
+.img43{
+    border:2px dashed pink;
+	width:270px;
+	height:230px;
+	top:228px;
+	left:10px;
+	position:absolute;}  /*布局的关键，以box41为参照物的绝对定位*/
+.img44{
+    border:2px dashed pink;
+	width:280px;
+	height:230px;
+	top:228px;
+	left:280px;
+	position:absolute;}  /*布局的关键，以box41为参照物的绝对定位*/
+.img45{
+    border:2px dashed pink;
+	width:270px;
+	height:230px;
+	top:228px;
+	left:560px;
+	position:absolute;}  /*布局的关键，以box41为参照物的绝对定位*/
+.para51{
+	font-family:FangSong;
+	font-size:20px;
+	width:700px;
+    height:40px;
+	top:80px;
+	left:150px;
+	position:absolute;}  /*布局的关键，以body为参照物的绝对定位*/
+.box51{
+    width:840px;
+	height:520px;
+	background:#EEDFCC;
+	top:140px;
+	left:60px;
+	position:absolute;margin:10px;}  /*布局的关键，以body为参照物的绝对定位*/
+.img51{
+	width:280px;
+	height:220px;
+	top:10px;
+	left:20px;
+    position:absolute;}  /*布局的关键，以box51为参照物的绝对定位*/
+.img52{
+	width:280px;
+	height:220px;
+	top:250px;
+	left:20px;
+    position:absolute;}  /*布局的关键，以box51为参照物的绝对定位*/
+.table2{
+	top:40px;
+    left:340px;
+	position:absolute;}  /*布局的关键，以box51为参照物的绝对定位*/
+.submit{
+	width:50px;
+	padding:6px;
+	border-radius:10px;
+	border:1px solid #0070a3;
+	left:180px;
+	position:absolute;  /*布局的关键，以table为参照物的绝对定位*/
+    }
+input{
+    border-radius:5px;}
+span{color:red;}
